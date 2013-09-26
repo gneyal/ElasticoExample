@@ -21,7 +21,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'elastico', :path => "/Users/eyalgoren/Documents/Code/Elastico/elastico"
+gem 'elastico' 
 gem "rest-client", "~> 1.6.7"
 
 # To use ActiveModel has_secure_password

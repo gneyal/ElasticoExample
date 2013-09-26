@@ -1,6 +1,5 @@
 class ApplesController < ApplicationController
   def index
-  	logger.info "======== in index========="
   	if params[:query]
   		Apple.search_query = prepare_search_json_for params[:query]
   		@apples = Apple.elastico_search
