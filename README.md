@@ -1,7 +1,7 @@
 ElasticoExample
 ===============
 
-An example app showing how to use Elastico.
+An example app showing how to use [Elastico](https://github.com/gneyal/Elastico).
 
 1. Clone this app.
 2. Run rails s
