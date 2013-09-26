@@ -1,3 +1,12 @@
 <h1>Apples index with elasticsearch</h1>
+<%= link_to 'View all', apples_index_path %>
+<%= link_to 'Readme', static_pages_readme_path %>
 <%= render 'search_form' %>
+<% if params[:query] %>
+<h3>For the query:</h3>
+<p>
+	<%= Apple.search_query %>
+</p>
+<h3>Elastico search will return this: </h3>
+<% end %>
 <%= @apples.inspect %>

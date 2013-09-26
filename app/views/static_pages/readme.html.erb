@@ -1,0 +1,16 @@
+<h1>Elastico Example App</h1>
+<h3>Hi there! This app demonstrates how to use the elastico gem</h3>
+
+<p>
+	We have an apple model, which has a name and color. We want to search it.
+</p>
+<ul>
+	<li>Install elasticsearch by following <%= link_to 'this link', 'http://www.elasticsearch.org/guide/reference/setup/installation/', :target => "_blank" %>.</li>
+	<li>Run db:migrate</li>
+	<li>Run db:seed</li>
+	<li>Play with rails c while creating and deleting Apples. Watch how elasticsearch is updated automatically when you create or delete an instance. You can view elasticsearch indices by installing the <%= link_to 'head',"http://mobz.github.io/elasticsearch-head/", :target => "_blank" %>  plugin. </li>
+	<li>Hop on to <%= link_to 'the apples index page', apples_index_path %> and play with the search.</li>
+	<li>Note that the initial query only searches for colors. It will not find names. Change it to include names searching by changing the search query to "_all" instead of "color" in the apples controller. </li>
+</ul>
+
+
