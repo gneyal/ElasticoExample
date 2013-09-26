@@ -1,8 +1,3 @@
-PATH
-  remote: /Users/eyalgoren/Documents/Code/Elastico/elastico
-  specs:
-    elastico (0.0.3)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -42,6 +37,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
+    elastico (0.0.4)
     erubis (2.7.0)
     execjs (2.0.1)
     hike (1.2.3)
@@ -111,7 +107,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  elastico!
+  elastico (= 0.0.4)
   jquery-rails
   rails (= 3.2.11)
   rest-client (~> 1.6.7)
