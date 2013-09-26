@@ -1,6 +1,8 @@
 class Apple < ActiveRecord::Base
+	include Elastico
+  
   attr_accessible :color, :name
-
+	
 	def self.prepare_elastico_settings_and_mappings_json
 	  json = { "apple" => {
 	        "properties" => {
@@ -9,6 +11,4 @@ class Apple < ActiveRecord::Base
 	        }
 	    }}.to_json
   end
- 	# prepare_elastico_settings_and_mappings_json must be defined before you include Elastico
- 	include Elastico
 end
