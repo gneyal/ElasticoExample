@@ -37,7 +37,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
-    elastico (0.0.6)
+    elastico (0.0.7)
     erubis (2.7.0)
     execjs (2.0.1)
     hike (1.2.3)
@@ -107,7 +107,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  elastico (= 0.0.6)
+  elastico (= 0.0.7)
   jquery-rails
   rails (= 3.2.11)
   rest-client (~> 1.6.7)
