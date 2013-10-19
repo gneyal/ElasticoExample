@@ -38,7 +38,7 @@ GEM
       execjs
     coffee-script-source (1.6.3)
     daemons (1.1.9)
-    elastico (0.0.7)
+    elastico (0.0.8)
     erubis (2.7.0)
     eventmachine (1.0.0)
     execjs (2.0.1)
@@ -114,7 +114,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  elastico (= 0.0.7)
+  elastico (= 0.0.8)
   jquery-rails
   pg
   rails (= 3.2.11)

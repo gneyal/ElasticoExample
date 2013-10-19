@@ -26,7 +26,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'elastico', "0.0.7" 
+gem 'elastico', "0.0.8" 
 gem "rest-client", "~> 1.6.7"
 
 # To use ActiveModel has_secure_password
